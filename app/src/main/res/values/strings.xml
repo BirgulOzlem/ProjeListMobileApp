@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ProjeListMobileApp</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Action Search</string>
+    <string name="title_activity_display_message">Title Activity Display Message</string>
+</resources>
