@@ -13,4 +13,10 @@
         android:title="@string/action_settings"
         ProjeListMobileApp:showAsAction="never" />
 
+    <item android:id="@+id/action_share"
+        android:title="@string/share"
+        ProjeListMobileApp:showAsAction="ifRoom"
+        ProjeListMobileApp:actionProviderClass="android.support.v7.widget.ShareActionProvider"
+        />
+
 </menu>

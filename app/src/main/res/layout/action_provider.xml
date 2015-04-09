@@ -5,11 +5,11 @@
     android:layout_gravity="center"
     android:focusable="true"
     android:addStatesFromChildren="true"
-    android:background="@drawable/eyfel">
+    >
 
     <ImageButton android:id="@+id/menuButton"
         android:contentDescription="@null"
-        android:background="@drawable/london_eye"
+
         android:layout_width="32dip"
         android:layout_height="32dip"
         android:layout_gravity="center"
