@@ -8,14 +8,16 @@ import android.os.Bundle;
 import android.support.v7.widget.ShareActionProvider;
 import android.util.Log;
 import android.view.Menu;
-import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 
 
 public class MainActivity extends ActionBarActivity
 {
     private Context activity;
     private ShareActionProvider mShareActionProvider;
+    Button button;
 
     @Override
     public void onCreate(Bundle savedInstanceState)
@@ -23,9 +25,16 @@ public class MainActivity extends ActionBarActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //setContentView(R.layout.activity_displaymessage);
-
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        button = (Button) findViewById(R.id.MyButton);
+
+        button.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View arg0) {
+                Intent myIntent = new Intent(MainActivity.this, DisplayMessageActivity.class);
+                startActivity(myIntent);
+            }
+        });
     }
 
     @Override
@@ -34,7 +43,7 @@ public class MainActivity extends ActionBarActivity
         getMenuInflater().inflate(R.menu.main_activity_actions, menu);
         MenuItem shareItem = menu.findItem(R.id.action_share);
         mShareActionProvider = (ShareActionProvider) MenuItemCompat.getActionProvider(shareItem);
-        Log.w("NullPointerException", "Is mShareActionProvider null: " + (mShareActionProvider == null));
+        //Log.w("NullPointerException", "Is mShareActionProvider null: " + (mShareActionProvider == null));
         mShareActionProvider.setShareIntent(getDefaultIntent());
 
         return super.onCreateOptionsMenu(menu);

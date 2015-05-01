@@ -4,12 +4,64 @@
     android:layout_height="match_parent"
     android:weightSum="1">
 
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"></LinearLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
     <TextView
-        android:text="Activity Display Message"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="#ffff4285"
-        android:textSize="25dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Türkiye Bağımlılıkla Mücadele Gençlik Zirvesi (19 – 20 Mayıs 2015) İstanbul"
         android:id="@+id/textView"
         android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Uyuşturucu ve bağımlılıklar günümüz gençliğinin en çok karşılaştığı sorunların başında gelmektedir. Sadece ülkemizde değil Dünya’nın bir çok kesiminde büyüyen bir sorun olan bağımlılıklar ve uyuşturucu maddelerle mücade için hükümetler farklı politikalar geliştirmekte ve çeşitli girişimlerde bulunarak gençleri bu maddelerde korumaya çalışmaktadır.
+
+        Bu noktada Dünya Sağlık Örgütü, Birleşmiş Milletler Uyuşturucu Maddeler ve Suç Ofisi, Avrupa Komisyonu gibi konunun otor kuruluşları bağımlılıklarla mücadele çalışmalarının temelde iki farklı şekilde olabileceğini belirtmektedir. Bunlardan biri gençlere bağımlılık yapıcı maddeleri, bağımlılık mekanizmalarını, bağımlılığın gelişme ve korunma yollarını anlatarak gerçekleşmektedir. Bundan daha etkili olduğu kanıtlanmış ikinci yol ise gençlerin bağımlılıklardan hiç bahsedilmeden gençlik çalışmalarına, sanata, kültüre, spora ve toplumsal katılım sağlayarak kendilerini aktif birer birey olarak görebilecekleri diğer aktivitelere yönlendirilmesidir.
+
+        Etkiliği kanıtlanmış metotlar içerisinde geçen sivil toplum çalışmaları ve gençlik katılımına temel teşkil eden faaliyet türleri, kaliteli ve sürdürülebilir bir şekilde sistemli olarak gerçekleştirildiğinde gençleri bağımlılıklardan korumada eğitim faaliyetlerinden çok daha etkin olmaktadır.
+
+        Türkiye Uyuşturucu ile Mücadele Gençlik Zirvesi bu noktadan hareketle Türkiye’deki gençlerin ve gençlik STK’larının gençlik katılımını arttırmak ve aktif bireyler yetiştirerek bağımlılıklardan uzak tutularak sağlıklı nesiller yetişmesine aracılık etmek amacıyla Sivil Yaşam Derneği ve Türkiye Yeşilay Cemiyeti ortaklığında 19 – 20 Mayıs 2015 tarihlerinde İstanbul’da gerçekleştirilmektedir.
+
+        Gençlik Zirvesi programı kapsamında karar alıcıların gençlerle buluşmasına, gençlik STK’larının STK fuarında kendi ürün ve çalışmalarını sunmasına ve sivil toplum kuruluşları ile network kurmasına olanak sağlayacak oturumlar bulunmaktadır. Buna ilave olarak katılımcıların ilgi alanlarına göre seçerek birer gençlik beyannamesi oluşturmalarına fırsat tanıyacak bölünmüş zirve oturumları da gerçekleşecektir.
+
+        Gençlik Zirvesi oturumları şu başlıkları içermektedir:
+
+        Spor Yoluyla Gençlik Katılım
+        Gençlik STK’ları ve Katılım
+        Sosyal Medya ve Gençlik
+        Sivil Toplumda Akran Eğitimi
+        Gençlik Mobilizasyonu
+        Gençlik Çalışmalarında Kanıta Dayalı Uygulamalar
+        Başvuru için tıklayınız
+
+        Etkinlik Yeri:
+
+        Miracle Istanbul Asia
+        Adres: Harmandere Mah. Dedepaşa Cad. Site Sk. No:8, 01960 Kurtköy – Pendik, İstanbul, Türkiye
+        Telefon: 0216 510 04 04
+
+        Etkinlik yeri konumu ile ilgili detaylı bilgi için tıklayınız…
+
+        GENÇLİK ZİRVESİ İLETİŞİM
+        İlgili Kişi: Hülya Demirhan
+        E-posta: gencirade@siyamder.org
+        Adres: Sakarya Mahallesi, Güvercin Sokak Ceylan 5 Apartmanı, No: 5 Görükle – Nilüfer – Bursa
+        Telefon: 0224 480 00 18"
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal" />
+
+    </ScrollView>
+
 </LinearLayout>
